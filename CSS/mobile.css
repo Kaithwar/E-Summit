@@ -1,0 +1,41 @@
+.heading{
+    font-size: 1.2rem;
+}
+
+.abo-row{
+    grid-template-columns: repeat(2,1fr);
+        /* padding: 20px; */
+}
+
+
+.Eventcard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.eve-card .rec{
+    width: 300px;
+    height: 400px;
+}
+
+.eve-card .circle{
+    left: 44px;
+    top: 44px;
+}
+
+.eve-btn{
+    top: 28px;
+}
+
+.comp-row{
+    flex-direction: column;
+    margin: 40px 30px ;
+}
+
+.comp-card{
+    margin: 10px;
+    width: 240px;
+}
+
