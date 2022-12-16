@@ -37,7 +37,7 @@ nav img {
 .navlinks ul li {
     list-style: none;
     display: inline-block;
-    padding: 8px 30px;
+    padding: 8px 20px;
     position: relative;
 }
 
@@ -123,14 +123,14 @@ body {
 .home-main img{
     position: relative;
     width: 58%;
-    bottom: 110px;
+    bottom: 150px;
 }
 
 .home-main .home-head{
     position: relative;
-    top: 167px;
+    top: 150px;
     font-size: 34px;
-    right: 250px;
+    right: 286px;
     color: white;
 }
 
@@ -138,7 +138,7 @@ body {
     position: relative;
     align-items: center;
     display: flex;
-    bottom: 298px;
+    bottom: 397px;
 }
 
 .home-main .hp-dn p{
@@ -150,7 +150,7 @@ body {
 .hp-content{
     position: relative;
     text-align: center;
-    bottom: 265px;
+    bottom: 347px;
     color: white;
 }
 
@@ -161,7 +161,7 @@ body {
 
 .hp-btn{
     position: relative;
-    bottom: 240px;
+    bottom: 300px;
     text-align: center;
 }
 
@@ -178,4 +178,28 @@ body {
 .hp-btn .colo{
     background-color: #542327;
     color: white;
+}
+
+@media(max-width:1024px) {
+    .home-main img{
+        bottom: 100px;
+    }
+    
+    .home-main .home-head{
+        top: 130px;
+        right: 202px;
+    }
+    
+    .home-main .hp-dn{
+        bottom: 296px;
+    }
+    
+    .hp-content{
+        bottom: 265px;
+    }
+    
+    .hp-btn{
+        bottom: 255px;
+    }
+
 }

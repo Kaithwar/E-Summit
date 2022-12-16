@@ -81,49 +81,85 @@
 
 /* Homepage  */
 .homepage .gold{
-    left: 16%;
-    top: 172px;
-    width: 70%;
+    left: 18%;
+    top: 122px;
+    width: 66%;
 }
 
 .home-main .home-head{
-    top: 167px;
+    top: 134px;
     font-size: 24px;
     right: 0px;
 }
 
 .home-main img{
-    width: 75%;
-    bottom: 0px;
+    width: 80%;
+    bottom: -38px;
 }
 
 .home-main .hp-dn{
-    bottom: 0px;
+    bottom: 43px;
 }
 
 .hp-content{
-    bottom: 0px;
+    bottom: 28px;
 }
 
 .hp-content p{
-    margin: 20px 14%;
+    margin: 12px 5%;
+    font-size: 15px;
+}
+
+.home-main .hp-dn p {
+    margin: 10px 10px;
     font-size: 16px;
 }
 
 .hp-btn{
-    bottom: 0px;
+    bottom: 24px;
 }
 
+.home-btn{
+    padding: 10px 22px;
+    font-size: 16px;
+    margin: 7px 7px;
+}
 
+#about{
+    bottom: 20px;
+}
 
 .heading {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    margin: 60px 10px;
+}
+
+.para{
+    font-size: 17px;
+    text-align: justify;
+    margin: 48px 8%;
+    margin-bottom: 13%;
 }
 
 .abo-row {
     grid-template-columns: repeat(2, 1fr);
-    /* padding: 20px; */
+    margin: 7% 14px;
 }
+
+.abo-card {
+    width: 136px;
+    height: 100px;
+    margin: 10px 0px;
+}
+
+.abo-card h1 {
+    font-size: 27px;
+  }
+  
+  .abo-card p {
+    font-size: 18px;
+  }
+  
 
 
 .Eventcard {
@@ -139,7 +175,7 @@
 }
 
 .eve-card .circle {
-    left: 44px;
+    left: 63px;
     top: 44px;
 }
 
@@ -147,12 +183,32 @@
     top: 28px;
 }
 
+.Competition .heading{
+    font-size: 1.4rem;
+    margin: 50px 0px;
+}
+
 .comp-row {
     flex-direction: column;
-    margin: 40px 30px;
+    margin: 30px 27px;
 }
 
 .comp-card {
-    margin: 10px;
+    margin: 14px;
     width: 240px;
+    height: 170px;
 }
+
+.comp-head {
+    font-size: 22px;
+}
+
+.eve-info h1 {
+    font-size: 2.2rem;
+  }
+  
+.eve-info p {
+    font-size: 17px;
+    margin: 10px 0%;
+}
+  
