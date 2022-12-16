@@ -1,41 +1,158 @@
-.heading{
+.navlist {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.1);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.navlist.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.navlist.active ul {
+    position: relative;
+    background: #fff;
+    width: 600px;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 10%);
+    transform: translateY(-50px);
+    transition: 0.3s ease;
+}
+
+
+.nav-close-btn {
+    position: absolute;
+    background: url("../img/close-btn.png")no-repeat;
+    filter: invert(1);
+    background-size: 12px;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav img {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.navlinks ul li a {
+    color: #542327;
+}
+
+
+.burger {
+    display: block;
+}
+
+.hnavresp {
+    height: 55px;
+}
+
+.vclassresp {
+    opacity: 0;
+}
+
+/* Homepage  */
+.homepage .gold{
+    left: 16%;
+    top: 172px;
+    width: 70%;
+}
+
+.home-main .home-head{
+    top: 167px;
+    font-size: 24px;
+    right: 0px;
+}
+
+.home-main img{
+    width: 75%;
+    bottom: 0px;
+}
+
+.home-main .hp-dn{
+    bottom: 0px;
+}
+
+.hp-content{
+    bottom: 0px;
+}
+
+.hp-content p{
+    margin: 20px 14%;
+    font-size: 16px;
+}
+
+.hp-btn{
+    bottom: 0px;
+}
+
+
+
+.heading {
     font-size: 1.2rem;
 }
 
-.abo-row{
-    grid-template-columns: repeat(2,1fr);
-        /* padding: 20px; */
+.abo-row {
+    grid-template-columns: repeat(2, 1fr);
+    /* padding: 20px; */
 }
 
 
-.Eventcard{
+.Eventcard {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
 
-.eve-card .rec{
+.eve-card .rec {
     width: 300px;
     height: 400px;
 }
 
-.eve-card .circle{
+.eve-card .circle {
     left: 44px;
     top: 44px;
 }
 
-.eve-btn{
+.eve-btn {
     top: 28px;
 }
 
-.comp-row{
+.comp-row {
     flex-direction: column;
-    margin: 40px 30px ;
+    margin: 40px 30px;
 }
 
-.comp-card{
+.comp-card {
     margin: 10px;
     width: 240px;
 }
-

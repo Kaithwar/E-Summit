@@ -13,6 +13,7 @@ html{
 
 body{
     transition: 0.5s ease;
+    background-color: black;
 }
 
 a{
@@ -47,7 +48,7 @@ li{
 #Events{
     color: white;
     background: black;
-    padding: 50px 20px;
+    padding: 10px 20px;
 }
 
 .eve-info h1 {
@@ -124,6 +125,8 @@ li{
     /* background: url('../img/main.jpg') no-repeat center center/cover; */
     background-color: #391F14;
     padding: 10px 0px;
+    position: relative;
+    bottom: 130px;
 }
 
 .abo{
